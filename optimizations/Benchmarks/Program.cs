@@ -8,6 +8,7 @@ namespace Benchmarks
 		static void Main(string[] args)
 		{
 			BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+			BenchmarkRunner.Run<JpegBenchmark>();
 			//BenchmarkRunner.Run<MemoryTraffic>();
 			//BenchmarkRunner.Run<StructVsClassBenchmark>();
 			//BenchmarkRunner.Run<ByteArrayEqualityBenchmark>();

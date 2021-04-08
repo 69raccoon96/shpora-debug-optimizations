@@ -16,7 +16,7 @@ namespace JPEG
 
         public static void Main(string[] args)
         {
-            args = new[] {"earth.bmp"};
+            //args = new[] {"earth.bmp"};
                 
             DCT.PreCulc(DCTSize, DCTSize);
             DCT.PreCulc2(DCTSize, DCTSize);
